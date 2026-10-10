@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A student web design portfolio exploring structure, style, and thoughtful details.">
+  <title>The Learning Journal | Web Design Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="The Learning Journal home"><span class="brand-mark" aria-hidden="true">LJ.</span> The Learning Journal</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#notes">Notes</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A student web design portfolio</p>
+        <h1 id="hero-title">Small steps.<br><em>Thoughtful websites.</em></h1>
+        <p class="intro">A place to explore the building blocks of the web, from clear HTML structure to CSS that brings a page to life.</p>
+        <a class="button" href="#projects">Explore the projects <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="design-study" role="img" aria-label="An abstract browser window showing a heading, text lines, and three colorful content blocks">
+        <div class="window-bar"><span></span><span></span><span></span></div>
+        <div class="study-content"><span class="study-label">Anatomy of a little idea</span><div class="study-heading"></div><div class="study-line"></div><div class="study-line short"></div><div class="study-grid"><i></i><i></i><i></i></div><span class="study-caption">Structure + style + a little curiosity</span></div>
+      </div>
+    </section>
+    <section class="about section-row" id="about" aria-labelledby="about-title">
+      <p class="eyebrow">01 / About this space</p>
+      <div><h2 id="about-title">Learning by making.</h2><p>This journal is a starting point for a student portfolio. It explores how typography, color, spacing, and layout can turn a simple page into a comfortable reading experience.</p><p>The approach is simple: build a clear structure, add purposeful styling, and keep refining the details.</p></div>
+    </section>
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / Project notebook</p><h2 id="projects-title">From structure to style.</h2></div><span class="small-note">Two foundations. One learning journey.</span></div>
+      <div class="project-list">
+        <article class="project"><span class="project-number">01</span><div><p class="tag">HTML / Foundation</p><h3>A page with a purpose</h3><p>Semantic headings, meaningful sections, and clear navigation establish the structure of a website.</p></div><span class="project-topic">Structure</span></article>
+        <article class="project"><span class="project-number">02</span><div><p class="tag">CSS / Assignment 2</p><h3>Giving the page its personality</h3><p>A shared stylesheet introduces readable type, a sticky header, responsive flexbox layouts, and interactive link states.</p></div><span class="project-topic">Style</span></article>
+      </div>
+    </section>
+    <section class="notes section-row" id="notes" aria-labelledby="notes-title">
+      <p class="eyebrow">03 / Notes to keep</p><div><h2 id="notes-title">Good design starts with clarity.</h2><ul class="note-list"><li><strong>Make room to read.</strong> Consistent line height and generous spacing give content room to breathe.</li><li><strong>Help people find their way.</strong> Visible navigation and clear hover and focus states make links easier to use.</li><li><strong>Design for different screens.</strong> Flexible layouts let the same content work on phones and desktops.</li></ul></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><p>The Learning Journal<span>A web design study.</span></p><a href="#home">Back to top ↑</a></div></footer>
+</body>
+</html>
